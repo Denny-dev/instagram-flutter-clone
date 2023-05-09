@@ -17,11 +17,13 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCZ-xrXqD5D19Snauto-Fx_nLD7PLrBXGM",
-        appId: "1:585119731880:web:eca6e4b3c42a755cee329d",
-        messagingSenderId: "585119731880",
-        projectId: "instagram-clone-4cea4",
-        storageBucket: 'instagram-clone-4cea4.appspot.com'
+          apiKey: "AIzaSyB8lD2yyFLhgfRSnAY-nd0hVHg3b76910E",
+          authDomain: "developer-5f3fe.firebaseapp.com",
+          projectId: "developer-5f3fe",
+          storageBucket: "developer-5f3fe.appspot.com",
+          messagingSenderId: "288620204557",
+          appId: "1:288620204557:web:6aa7b975d7690e4c29fb44",
+          measurementId: "G-YS67B3JC0S"
       ),
     );
   } else {
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Instagram Clone',
+        title: 'Shamba Connect',
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),
