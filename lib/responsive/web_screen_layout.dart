@@ -47,9 +47,9 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
         backgroundColor: mobileBackgroundColor,
         centerTitle: false,
         title: SvgPicture.asset(
-          'assets/ic_instagram.svg',
+          'assets/ic_shamba.svg',
           color: primaryColor,
-          height: 32,
+          height: 10,
         ),
         actions: [
           IconButton(

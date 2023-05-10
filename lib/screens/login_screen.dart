@@ -74,10 +74,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Container(),
                 flex: 2,
               ),
-              SvgPicture.asset(
-                'images/ic_shambas.jpeg',
-                color: primaryColor,
-                height: 64,
+              Image.asset(
+                'assets/logo02.jpeg',
+                height: 220,
               ),
               const SizedBox(
                 height: 64,
