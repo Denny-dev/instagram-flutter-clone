@@ -95,8 +95,8 @@ class _SignupScreenState extends State<SignupScreen> {
                 flex: 2,
               ),
               Image.asset(
-                'assets/logo02.jpeg',
-                height: 120,
+                'assets/logo03.jpeg',
+                height: 220,
               ),
               const SizedBox(
                 height: 64,
@@ -107,13 +107,13 @@ class _SignupScreenState extends State<SignupScreen> {
                       ? CircleAvatar(
                           radius: 64,
                           backgroundImage: MemoryImage(_image!),
-                          backgroundColor: Colors.grey,
+                          backgroundColor: Colors.greenAccent,
                         )
                       : const CircleAvatar(
                           radius: 64,
                           backgroundImage: NetworkImage(
-                              'https://i.stack.imgur.com/l60Hf.png'),
-                          backgroundColor: Colors.grey,
+                              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMCBolaX1OhlWSCwbjRuQ9ztXFWWQQK4YG_6wlGm24zYvm7Jmp55YOwpTqvG2t_N5vSO8&usqp=CAU'),
+                          backgroundColor: Colors.greenAccent,
                         ),
                   Positioned(
                     bottom: -10,
@@ -128,14 +128,34 @@ class _SignupScreenState extends State<SignupScreen> {
               const SizedBox(
                 height: 24,
               ),
+
               TextFieldInput(
-                hintText: 'Enter your username',
+                hintText: 'Enter your First Name',
                 textInputType: TextInputType.text,
                 textEditingController: _usernameController,
               ),
               const SizedBox(
                 height: 24,
               ),
+
+              TextFieldInput(
+                hintText: 'Enter your Last Name',
+                textInputType: TextInputType.text,
+                textEditingController: _usernameController,
+              ),
+              const SizedBox(
+                height: 24,
+              ),
+
+              TextFieldInput(
+                hintText: 'Enter your Phone number',
+                textInputType: TextInputType.text,
+                textEditingController: _usernameController,
+              ),
+              const SizedBox(
+                height: 24,
+              ),
+
               TextFieldInput(
                 hintText: 'Enter your email',
                 textInputType: TextInputType.emailAddress,

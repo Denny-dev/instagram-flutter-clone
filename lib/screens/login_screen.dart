@@ -75,7 +75,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 flex: 2,
               ),
               Image.asset(
-                'assets/logo02.jpeg',
+                'assets/logo03.jpeg',
                 height: 220,
               ),
               const SizedBox(
