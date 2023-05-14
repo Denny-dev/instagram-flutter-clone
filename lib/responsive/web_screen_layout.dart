@@ -44,7 +44,7 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: mobileBackgroundColor,
+        backgroundColor: webBackgroundColor,
         centerTitle: false,
         title: SvgPicture.asset(
           'assets/ic_shamba.svg',
@@ -98,3 +98,20 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
     );
   }
 }
+
+// class CustomPageViewScrollPhysics extends ScrollPhysics {
+//   const CustomPageViewScrollPhysics({ScrollPhysics? parent})
+//       : super(parent: parent);
+//
+//   @override
+//   CustomPageViewScrollPhysics applyTo(ScrollPhysics? ancestor) {
+//     return CustomPageViewScrollPhysics(parent: buildParent(ancestor)!);
+//   }
+//
+//   @override
+//   SpringDescription get spring => const SpringDescription(
+//     mass: 50,
+//     stiffness: 100,
+//     damping: 0.8,
+//   );
+// }
